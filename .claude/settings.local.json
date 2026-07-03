@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /c/Users/abuba -maxdepth 4 -iname \"*.png\" -newer /c/Users/abuba/Herd/hamza/index.html 2>/dev/null | head -50)",
+      "Bash(node -e ' *)",
+      "Bash(powershell -c \"Add-Type -AssemblyName System.Drawing; [System.Drawing.Image]::FromFile\\('2d-character-sprite-11562870067mxbxsjsdnf.png'\\).Size\")",
+      "Bash(cp \"/c/Users/abuba/OneDrive/Pictures/2d-character-sprite-11562870067mxbxsjsdnf.png\" \"/c/Users/abuba/Herd/hamza/assets/player-sprite.png\")",
+      "Bash(cp \"/c/Users/abuba/OneDrive/Pictures/3d-rendering-basketball-ball-png.png\" \"/c/Users/abuba/Herd/hamza/assets/basketball.png\")",
+      "Bash(where python *)",
+      "Bash(where npx *)",
+      "Bash(where node *)"
+    ]
+  }
+}
