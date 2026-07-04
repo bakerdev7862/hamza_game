@@ -8,7 +8,16 @@
       "Bash(cp \"/c/Users/abuba/OneDrive/Pictures/3d-rendering-basketball-ball-png.png\" \"/c/Users/abuba/Herd/hamza/assets/basketball.png\")",
       "Bash(where python *)",
       "Bash(where npx *)",
-      "Bash(where node *)"
+      "Bash(where node *)",
+      "Read(//c/Users/abuba/AppData/Local/Android/**)",
+      "Read(//c/Program Files/Android/**)",
+      "Read(//c/Users/abuba/AppData/Local/Programs/**)",
+      "PowerShell(winget --version)",
+      "PowerShell(winget list -q \"Android Studio\" 2>&1)",
+      "PowerShell(winget install -e --id Google.AndroidStudio --accept-package-agreements --accept-source-agreements)",
+      "Read(//c/Program Files/Android/Android Studio/jbr/**)",
+      "Bash(mkdir -p \"/c/Users/abuba/AppData/Local/Android/Sdk/cmdline-tools\")",
+      "Bash(curl -L -o \"/c/Users/abuba/AppData/Local/Temp/cmdline-tools.zip\" \"https://dl.google.com/android/repository/commandlinetools-win-14742923_latest.zip\" --progress-bar)"
     ]
   }
 }
